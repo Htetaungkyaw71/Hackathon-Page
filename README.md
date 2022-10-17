@@ -46,6 +46,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Inspiration for this website is from [CC-Global-Summit-2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 - Linters are made by Microverse inc
 
 ## 📝 License
