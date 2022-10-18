@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Conference Page
+# Hackathon Page
 
 > Web design for capstone project
 
@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://htetaungkyaw71.github.io/Hackathon-Page)
 
 
 ## Getting Started
