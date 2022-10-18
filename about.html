@@ -4,15 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conference Page</title>
+    <title>Hackathon</title>
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <section class="about-head">
+        <nav class="upper-navigation">
+            <ul>
+                <li>
+                    <a href="./index.html">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html">
+                        English
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html">
+                        My page
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html">
+                        Logout
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="main-navigation">
+            <div class="navigation-logo">
+                <img src="./assets/images/logo.png">
+                <h1>Hackathon</h1>         
+            </div>
+            <ul>
+                <li>
+                    <a href="./index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="./about.html">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="#program">
+                        Program
+                    </a>
+                </li>
+                <li>
+                    <a href="#speaker">
+                        Speakers
+                    </a>
+                </li>
+                <li>
+                    <a href="#partner">
+                        Sponsor
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="about-head">        
             <nav>
-                <a href="" class="hambugar">
+                <a class="hambugar" id="hambugar">
                     <i class="fa-solid fa-bars"></i>
                 </a>
             </nav>
@@ -20,9 +84,12 @@
                 <div>
                     <h3>"Hello Everyone!"</h3>
                     <h1 class="heading">The World's Largest Hackathon 2022</h1>
-                    <div class="about-box">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt quo optio odio enim, repellendus sint dolorum provident temporibus ducimus delectus consequuntur recusandae esse minima explicabo natus numquam dolores dolorem. Et.
+                    <div class="about-upper-box">
+                        <div class="about-box">
+                            No matter your experience level, the 2022 Hackathon has the resources and mentorship you need to take your development journey to the next level. 
+                        </div>
                     </div>
+                
                     <p>
                         Please, contact us per email for any further questions
                         <br>
@@ -35,28 +102,31 @@
     </header>
 
     <main>
-        <section class="about-main">
+        <section class="about-main" id="program">
             <div class="about-main-heading">
                 <h1>World Largest Hackathon</h1>
                 <span></span>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Come Build Using Hardware, Software, Or Anything You Want With Other Hackers.
                 </p>
-                <div class="about-main-box">
-                    <img src="./assets/images/logo.png" alt="">
-                    <h1>
-                        World Largest Hackathon
-                    </h1>
+                <div class="about-upper-box">
+                    <div class="about-main-box">
+                        <img src="./assets/images/logo.png" alt="logo">
+                        <h1>
+                            World Largest Hackathon
+                        </h1>
+                    </div>
                 </div>
+             
             </div>
         </section>
         <hr>
-        <section class="about-main">
+        <section class="about-main" id="speaker">
             <div class="about-main-heading">
                 <h1>See the past Hackathon</h1>
                 <span></span>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p class="about-past">
+                    Solve interesting business problems and real-world challenges
                 </p>
                 <div class="about-image-box">
                  <div class="about-image">
@@ -82,7 +152,7 @@
     </main>
 
     <footer>
-        <section class="partner">
+        <section class="partner" id="partner">
             <div class="partner-heading">
                 <h1>Partner</h1>
                 <span></span>
@@ -115,6 +185,26 @@
             </div>
         </section>
     </footer>
+
+    <div id="overlay">
+        <div class="closebtn">
+            <i class="fa-solid fa-xmark" id="close"></i>
+        </div>
+        <ul>
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            <li>
+                <a href="#program" id="menu_link">Program</a>
+            </li>
+            <li>
+                <a href="#speaker" id="menu_link">Speakers</a>
+            </li>
+            <li>
+                <a href="#partner" id="menu_link">Sponsor</a>
+            </li>
+        </ul>
+    </div>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>

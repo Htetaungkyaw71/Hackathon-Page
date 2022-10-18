@@ -4,25 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conference Page</title>
+    <title>Hackathon</title>
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
     <header>
+        <nav class="upper-navigation">
+            <ul>
+                <li>
+                    <a href="./index.html">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html">
+                        English
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html">
+                        My page
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html">
+                        Logout
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="main-navigation">
+            <div class="navigation-logo">
+                <img src="./assets//images/logo.png" alt="logo">
+                <h1>Hackathon</h1>         
+            </div>
+            <ul>
+                <li>
+                    <a href="./index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="./about.html">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="#program">
+                        Program
+                    </a>
+                </li>
+                <li>
+                    <a href="#speaker">
+                        Speakers
+                    </a>
+                </li>
+                <li>
+                    <a href="#partner">
+                        Sponsor
+                    </a>
+                </li>
+            </ul>
+        </nav>
         <section class="head">
             <nav>
-                <a href="" class="hambugar">
+                <a class="hambugar" id="hambugar">
                     <i class="fa-solid fa-bars"></i>
                 </a>
             </nav>
+      
             <div class="head-content">
                 <div>
                     <h3>"Hello Everyone!"</h3>
                     <h1 class="heading">The World's Largest Hackathon 2022</h1>
                     <div class="head-box">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ullam incidunt assumenda Incidunt soluta nulla.
+                            An opportunity to learn to do the best you can while getting good at your passion.
                         </p>
                     </div>
                     <h1 class="date">
@@ -34,7 +98,7 @@
     </header>
 
     <main>
-        <section class="program">
+        <section class="program" id="program">
             <div class="program-heading">
                 <h1>Main Program</h1>
                 <span></span>
@@ -86,45 +150,81 @@
             </div>
         </section>
 
-        <section class="feature">
+        <section class="feature" id="speaker">
             <div class="feature-heading">
                 <h1>Featured Speakers</h1>
                 <span></span>
             </div>
             <div class="feature-body">
-                <div class="feature-card">
-                    <img src="./assets//images/person1.jpg">
+                <div class="feature-card" id="speaker">
+                    <div class="feature-img">
+                        <img src="./assets/images/person1.jpg" alt="speaker-image">
+                    </div>
+             
                     <div class="feature-content">
-                        <h1>Yochai Benkler</h1>
-                        <h3>Professor at Harvard law school</h3>
+                        <h1>Yochai Benkle</h1>
+                        <h3>Professor at Harvard computer science school</h3>
                         <span></span>
                         <p>
                             Have the time to share your thought and options with expects for each topic
                         </p>
-                    </div>
-                  
+                    </div>       
+                
                 </div>  
-                <div class="feature-card">
-                    <img src="./assets//images/person2.jpg">
+                <div class="feature-card" id="speaker">
+                    <div class="feature-img">
+                        <img src="./assets/images/person2.jpg" alt="speaker-image">
+                    </div>
+             
                     <div class="feature-content">
-                        <h1>Yochai Benkler</h1>
-                        <h3>Professor at Harvard law school</h3>
+                        <h1>Thomas</h1>
+                        <h3>Professor at Standford school</h3>
                         <span></span>
                         <p>
                             Have the time to share your thought and options with expects for each topic
                         </p>
+                    </div>       
+                
+                </div>  
+                <div class="feature-card" id="speaker">
+                    <div class="feature-img">
+                        <img src="./assets/images/person3.jpg" alt="speaker-image">
                     </div>
-                  
+             
+                    <div class="feature-content">
+                        <h1>David</h1>
+                        <h3>Professor at Yale computer science school</h3>
+                        <span></span>
+                        <p>
+                            Have the time to share your thought and options with expects for each topic
+                        </p>
+                    </div>       
+                
+                </div>  
+                <div class="feature-card" id="speaker">
+                    <div class="feature-img">
+                        <img src="./assets/images/person4.jpg" alt="speaker-image">
+                    </div>
+             
+                    <div class="feature-content">
+                        <h1>James</h1>
+                        <h3>Professor at Harvard computer science school</h3>
+                        <span></span>
+                        <p>
+                            Have the time to share your thought and options with expects for each topic
+                        </p>
+                    </div>       
+                
                 </div>  
             </div>
             <div class="feature-btn">
-                <a href="">More <i class="fa-solid fa-chevron-down"></i></a>
+                <a id="more">More <i class="fa-solid fa-chevron-down"></i></a>
             </div>
         </section>
     </main>
 
     <footer>
-        <section class="partner">
+        <section class="partner" id="partner">
             <div class="partner-heading">
                 <h1>Partner</h1>
                 <span></span>
@@ -157,6 +257,27 @@
             </div>
         </section>
     </footer>
+
+    <div id="overlay">
+        <div class="closebtn">
+            <i class="fa-solid fa-xmark" id="close"></i>
+        </div>
+        <ul>
+            <li>
+                <a href="./about.html">About</a>
+            </li>
+            <li>
+                <a href="#program" id="menu_link">Program</a>
+            </li>
+            <li>
+                <a href="#speaker" id="menu_link">Speakers</a>
+            </li>
+            <li>
+                <a href="#partner" id="menu_link">Sponsor</a>
+            </li>
+        </ul>
+    </div>
+
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
